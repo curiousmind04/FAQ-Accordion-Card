@@ -17,7 +17,8 @@ body {
   justify-content: center;
   align-items: center;
   background: linear-gradient(200deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-  /* overflow-x: scroll; */
+  min-width: 1050px;
+  min-height: 575px;
 }
 
 main {
@@ -46,10 +47,18 @@ main {
   bottom: -58%;
 }
 
+.pattern2 {
+  display: none;
+}
+
 .woman {
   position: relative;
   right: 17%;
   z-index: 1;
+}
+
+.woman2 {
+  display: none;
 }
 
 .box {
@@ -107,4 +116,51 @@ button:hover {
 
 .open {
   display: block;
+}
+
+@media (max-width: 500px) {
+  body {
+    min-height: 800px;
+    min-width: 550px;
+  }
+  .container {
+    flex-direction: column;
+    overflow: visible;
+  }
+  .faq-container {
+    text-align: center;
+    width: 325px;
+    height: 400px;
+    margin-top: 1.2rem;
+    margin-right: 0;
+    padding-top: 0;
+  }
+  .woman {
+    display: none;
+  }
+  .pattern {
+    display: none;
+  }
+  .box {
+    display: none;
+  }
+  .pattern2 {
+    display: block;
+  }
+  .woman2 {
+    display: block;
+    position: absolute;
+    bottom: 28%;
+    z-index: 1;
+  }
+  button {
+    text-align: left;
+  }
+  .questions {
+    margin-top: 1rem;
+  }
+  section span {
+    text-align: left;
+    margin-top: 0.5rem;
+  }
 }
