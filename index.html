@@ -1,40 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FAQ Accordion Card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+    <title>FAQ Accordion Card</title>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <img class="box" src="images/illustration-box-desktop.svg" />
+        <div class="image-container">
+          <img class="pattern" src="images/bg-pattern-desktop.svg" />
+          <img
+            class="woman"
+            src="images/illustration-woman-online-desktop.svg"
+          />
+        </div>
+        <div class="faq-container">
+          <h1>FAQ</h1>
+          <div class="questions">
+            <section>
+              <button class="button1">
+                How many team members can I invite?
+                <img class="arrow1" src="images/icon-arrow-down.svg" />
+              </button>
+              <span class="q1"
+                >You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.</span
+              >
+            </section>
+            <section>
+              <button class="button2">
+                What is the maximum file upload size?
+                <img class="arrow2" src="images/icon-arrow-down.svg" />
+              </button>
+              <span class="q2"
+                >No more than 2GB. All files in your account must fit your
+                allotted storage space.</span
+              >
+            </section>
+            <section>
+              <button class="button3">
+                How do I reset my password?
+                <img class="arrow3" src="images/icon-arrow-down.svg" />
+              </button>
+              <span class="q3"
+                >Click “Forgot password” from the login page or “Change
+                password” from your profile page. A reset link will be emailed
+                to you.</span
+              >
+            </section>
+            <section>
+              <button class="button4">
+                Can I cancel my subscription?
+                <img class="arrow4" src="images/icon-arrow-down.svg" />
+              </button>
+              <span class="q4"
+                >Yes! Send us a message and we’ll process your request no
+                questions asked.</span
+              >
+            </section>
+            <section>
+              <button class="button5">
+                Do you provide additional support?
+                <img class="arrow5" src="images/icon-arrow-down.svg" />
+              </button>
+              <span class="q5"
+                >Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.</span
+              >
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>

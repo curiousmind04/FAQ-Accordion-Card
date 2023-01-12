@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Kumbh Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(200deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  /* overflow-x: scroll; */
+}
+
+main {
+  position: relative;
+}
+
+.container {
+  /* height: 78vh; */
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.6rem;
+  overflow: hidden;
+}
+
+.image-container {
+  position: relative;
+}
+
+.pattern {
+  /* transform-origin: left top;
+  transform: translateX(-565px) translateY(-360px); */
+  position: absolute;
+  right: 17%;
+  bottom: -58%;
+}
+
+.woman {
+  position: relative;
+  right: 17%;
+  z-index: 1;
+}
+
+.box {
+  position: absolute;
+  left: -10%;
+  top: 41%;
+  z-index: 2;
+}
+.faq-container {
+  width: 380px;
+  height: 470px;
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-right: 5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: hsl(238, 29%, 16%);
+}
+
+.questions {
+  margin-top: 1.5rem;
+}
+
+.faq-container section {
+  padding: 1rem 1rem 1rem 0;
+  border-bottom: 0.1px solid hsl(240, 5%, 91%);
+  font-size: 0.9rem;
+}
+
+section span {
+  display: none;
+  color: hsl(240, 6%, 50%);
+  font-size: 0.75rem;
+  margin-top: 0.8rem;
+  line-height: 1.2rem;
+}
+
+button {
+  background: #fff;
+  border: none;
+  font: inherit;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: hsl(237, 12%, 33%);
+}
+
+button:hover {
+  color: hsl(14, 88%, 65%);
+  cursor: pointer;
+}
+
+.open {
+  display: block;
+}
