@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(200deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  background: linear-gradient(0deg, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
   min-width: 1050px;
   min-height: 575px;
 }
@@ -26,7 +26,6 @@ main {
 }
 
 .container {
-  /* height: 78vh; */
   background: #fff;
   display: flex;
   justify-content: center;
@@ -122,6 +121,7 @@ button:hover {
   body {
     min-height: 800px;
     min-width: 550px;
+    background-attachment: fixed;
   }
   .container {
     flex-direction: column;
