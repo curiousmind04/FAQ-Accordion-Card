@@ -114,8 +114,21 @@ button:hover {
   cursor: pointer;
 }
 
-.open {
+/* .open {
   display: block;
+} */
+
+.active .answer {
+  display: block;
+}
+
+.active img {
+  transform: rotate(180deg);
+  transition: all 0.2s ease-in;
+}
+
+.active button {
+  font-weight: 700;
 }
 
 @media (max-width: 500px) {
